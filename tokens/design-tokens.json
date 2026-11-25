@@ -3,9 +3,9 @@
   "units": "px unless explicitly stated",
   "palette": {
     "plum": "#10002B",
-    "purple": "#3C096C",
-    "rose": "#932DA5",
-    "pink": "#FE84AD",
+    "purple": "#560A59",
+    "rose": "#A52D8F",
+    "pink": "#FD7AAB",
     "blush": "#FDB0B4",
     "blueDeep": "#0A88BD",
     "blueMid": "#3CBAEF",
@@ -60,25 +60,96 @@
       "stops": [
         [
           0,
-          "#10002B"
+          "#170234"
         ],
         [
-          25,
-          "#240046"
+          22.279129922389984,
+          "#560A59"
         ],
         [
-          58,
-          "#8D2DA5"
+          55.942392349243164,
+          "#A52D8F"
         ],
         [
-          86,
+          88.29635977745056,
           "#FD7AAB"
         ],
         [
           100,
           "#FDB4B5"
         ]
-      ]
+      ],
+      "figmaPaint": {
+        "type": "GRADIENT_LINEAR",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "gradientStops": [
+          {
+            "color": {
+              "r": 0.0882762223482132,
+              "g": 0.0066163488663733006,
+              "b": 0.20260004699230194,
+              "a": 1
+            },
+            "position": 0,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.3370428681373596,
+              "g": 0.039165496826171875,
+              "b": 0.3473145067691803,
+              "a": 1
+            },
+            "position": 0.22279129922389984,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.6470588445663452,
+              "g": 0.1764705926179886,
+              "b": 0.5607843399047852,
+              "a": 1
+            },
+            "position": 0.5594239234924316,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.9921568632125854,
+              "g": 0.47843137383461,
+              "b": 0.6705882549285889,
+              "a": 1
+            },
+            "position": 0.8829635977745056,
+            "boundVariables": {}
+          },
+          {
+            "color": {
+              "r": 0.9921568632125854,
+              "g": 0.7058823704719543,
+              "b": 0.7098039388656616,
+              "a": 1
+            },
+            "position": 1,
+            "boundVariables": {}
+          }
+        ],
+        "gradientTransform": [
+          [
+            0,
+            1.0721648931503296,
+            -0.07216494530439377
+          ],
+          [
+            -1.0721648931503296,
+            0,
+            1.0360825061798096
+          ]
+        ]
+      },
+      "note": "Hex labels are rounded; figmaPaint preserves full-precision RGB and transform. CSS positions incorporate the saved transform."
     },
     "darkSurface": [
       "#2B2534",

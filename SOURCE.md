@@ -12,3 +12,6 @@ Latest corrections included: horizontal gradients allowed; readable text on grad
 Excluded: all fonts, photos, logo/image assets, screenshots, internal business records and previous/archived design iterations.
 
 CSS is a foundation reference, not a certified complete component implementation. Effects and responsive behavior require visual review in the target medium. Content-specific claims and imagery must be supplied and approved separately.
+
+
+Gradient/palette revision: read directly from corrected Figma sample 45:16 and comparison swatches on 2026-11-25. Main gradient exact paint retained in tokens. Purple #560A59, rose #A52D8F, pink #FD7AAB. Plum and blush unchanged. Button gradient excluded from this revision. White on updated purple: 13.26:1.

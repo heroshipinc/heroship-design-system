@@ -37,9 +37,9 @@ Logo files are deliberately excluded from this public kit. Ask the team for the 
 | Name | Hex | Typical role |
 |---|---|---|
 | Plum | #10002B | Brand anchor, dark brand moments |
-| Purple | #3C096C | Primary brand expression |
-| Rose | #932DA5 | Controlled expressive color |
-| Pink | #FE84AD | Accent within primary family |
+| Purple | #560A59 | Primary brand expression |
+| Rose | #A52D8F | Controlled expressive color |
+| Pink | #FD7AAB | Accent within primary family |
 | Blush | #FDB0B4 | Soft accent/surface moment |
 
 These are the primary flat palette. Pink and blush are not default page backgrounds everywhere. The brand should still read predominantly purple/plum.
@@ -86,12 +86,14 @@ Keep the background-role picker focused: canvas, surface, deep-plum and green-li
 Explicit color surfaces do not change color with theme. Select their text pair by the actual surface, not the surrounding page mode.
 
 ## 5. Gradients
-Main brand gradient, all stops at 100% opacity:
-- 0%: #10002B
-- 25%: #240046
-- 58%: #8D2DA5
-- 86%: #FD7AAB
+Main brand gradient, all stops at 100% opacity (stop positions in Figma's gradient coordinates; hex values rounded for readability):
+- 0%: #170234
+- 22.27913%: #560A59
+- 55.942392%: #A52D8F
+- 88.29636%: #FD7AAB
 - 100%: #FDB4B5
+
+The saved gradient has a shortened, offset axis. Use the full-precision RGB and transform in tokens/design-tokens.json or the transform-adjusted CSS in tokens/foundations.css to reproduce it. Do not stretch these stop coordinates across the full frame and assume an exact match. Horizontal use rotates the same visual progression. The button gradient and its older effect-specific pink remain unchanged.
 
 Do not replace these stops with the similar flat palette values. They are intentionally separate definitions.
 

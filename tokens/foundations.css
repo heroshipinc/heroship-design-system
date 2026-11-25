@@ -1,9 +1,9 @@
 /* Foundation reference. Licensed font files are intentionally not bundled. */
 :root {
   --hs-plum: #10002B;
-  --hs-purple: #3C096C;
-  --hs-rose: #932DA5;
-  --hs-pink: #FE84AD;
+  --hs-purple: #560A59;
+  --hs-rose: #A52D8F;
+  --hs-pink: #FD7AAB;
   --hs-blush: #FDB0B4;
   --hs-blue-deep: #0A88BD;
   --hs-blue-mid: #3CBAEF;
@@ -34,8 +34,8 @@
   --hs-button-fg: var(--hs-white);
   --hs-border-card: #DDD8E3;
   --hs-border-muted: #EBE8EF;
-  --hs-gradient-vertical: linear-gradient(to bottom,#10002B 0%,#240046 25%,#8D2DA5 58%,#FD7AAB 86%,#FDB4B5 100%);
-  --hs-gradient-horizontal: linear-gradient(to right,#10002B 0%,#240046 25%,#8D2DA5 58%,#FD7AAB 86%,#FDB4B5 100%);
+  --hs-gradient-vertical: linear-gradient(to bottom in srgb, rgb(22.510437 1.687169 51.663012) 6.730769%, rgb(85.945931 9.987202 88.565199) 27.510343%, rgb(165.000005 45.000001 143.000007) 58.907811%, rgb(253.000000 122.000000 171.000005) 89.084109%, rgb(253.000000 180.000004 181.000004) 100.000005%);
+  --hs-gradient-horizontal: linear-gradient(to right in srgb, rgb(22.510437 1.687169 51.663012) 6.730769%, rgb(85.945931 9.987202 88.565199) 27.510343%, rgb(165.000005 45.000001 143.000007) 58.907811%, rgb(253.000000 122.000000 171.000005) 89.084109%, rgb(253.000000 180.000004 181.000004) 100.000005%);
   --hs-space-4: 4px;
   --hs-space-8: 8px;
   --hs-space-12: 12px;

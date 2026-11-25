@@ -39,8 +39,8 @@
     {
       "name": "White on brand purple",
       "foreground": "#FFFFFF",
-      "background": "#3C096C",
-      "contrastRatio": 14.51,
+      "background": "#560A59",
+      "contrastRatio": 13.26,
       "usage": "Normal and large text"
     },
     {
