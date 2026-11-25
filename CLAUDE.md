@@ -1,0 +1,1 @@
+Read AGENTS.md, then HEROSHIP_AI_GUIDE.md and tokens/design-tokens.json. Apply those instructions to Heroship work. For missing fonts or imagery, follow the declared fallback and placeholder rules; do not invent assets.

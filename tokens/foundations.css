@@ -1,0 +1,82 @@
+/* Foundation reference. Licensed font files are intentionally not bundled. */
+:root {
+  --hs-plum: #10002B;
+  --hs-purple: #3C096C;
+  --hs-rose: #932DA5;
+  --hs-pink: #FE84AD;
+  --hs-blush: #FDB0B4;
+  --hs-blue-deep: #0A88BD;
+  --hs-blue-mid: #3CBAEF;
+  --hs-blue-light: #9CE5F6;
+  --hs-green-deep: #3A6F72;
+  --hs-green-mid: #85A3A2;
+  --hs-green-light: #C1DFDE;
+  --hs-gray-deep: #7A7A7A;
+  --hs-gray-mid: #C0C0C0;
+  --hs-gray-light: #EBEBEB;
+  --hs-accent: #9858FF;
+  --hs-white: #FFFFFF;
+  --hs-deep-canvas: #211C29;
+  --hs-hero: #211C2B;
+  --hs-raised: #34283F;
+  --hs-ink: #2B2438;
+  --hs-secondary-ink: #3F385B;
+  --hs-muted: #BCB5C8;
+  --hs-lavender: #F5F2FA;
+  --hs-rose-tint: #F4E9EE;
+  --hs-font-heading: "Big Issue Narrow", "Arial Narrow", Impact, sans-serif;
+  --hs-font-body: "Area Normal", Arial, Helvetica, sans-serif;
+  --hs-canvas: var(--hs-white);
+  --hs-surface: var(--hs-lavender);
+  --hs-text: var(--hs-ink);
+  --hs-text-secondary: var(--hs-secondary-ink);
+  --hs-button-bg: var(--hs-deep-canvas);
+  --hs-button-fg: var(--hs-white);
+  --hs-border-card: #DDD8E3;
+  --hs-border-muted: #EBE8EF;
+  --hs-gradient-vertical: linear-gradient(to bottom,#10002B 0%,#240046 25%,#8D2DA5 58%,#FD7AAB 86%,#FDB4B5 100%);
+  --hs-gradient-horizontal: linear-gradient(to right,#10002B 0%,#240046 25%,#8D2DA5 58%,#FD7AAB 86%,#FDB4B5 100%);
+  --hs-space-4: 4px;
+  --hs-space-8: 8px;
+  --hs-space-12: 12px;
+  --hs-space-16: 16px;
+  --hs-space-24: 24px;
+  --hs-space-32: 32px;
+  --hs-space-48: 48px;
+  --hs-space-64: 64px;
+  --hs-space-96: 96px;
+  --hs-radius-small:12px;
+  --hs-radius-card:24px;
+  --hs-radius-pill:999px;
+}
+[data-theme="dark"] {
+  --hs-canvas:var(--hs-deep-canvas);
+  --hs-surface:var(--hs-raised);
+  --hs-text:var(--hs-white);
+  --hs-text-secondary:var(--hs-muted);
+  --hs-button-bg:var(--hs-white);
+  --hs-button-fg:var(--hs-deep-canvas);
+  --hs-border-card:#46404E;
+  --hs-border-muted:#393340;
+}
+/* Visual heading names are independent of semantic HTML heading levels. */
+.hs-h0{font-family:var(--hs-font-heading);font-weight:600;font-size:96px;line-height:0.95;letter-spacing:-0.02em;}
+.hs-h1{font-family:var(--hs-font-heading);font-weight:600;font-size:72px;line-height:0.95;letter-spacing:-0.015em;}
+.hs-h2{font-family:var(--hs-font-heading);font-weight:600;font-size:56px;line-height:1;letter-spacing:-0.01em;}
+.hs-h3{font-family:var(--hs-font-heading);font-weight:600;font-size:40px;line-height:1;letter-spacing:-0.01em;}
+.hs-h4{font-family:var(--hs-font-heading);font-weight:600;font-size:32px;line-height:1;letter-spacing:-0.01em;}
+.hs-h5{font-family:var(--hs-font-heading);font-weight:600;font-size:24px;line-height:1;letter-spacing:-0.01em;}
+.hs-body-20{font-family:var(--hs-font-body);font-size:20px;line-height:1.5;letter-spacing:-.015em;font-weight:400;}
+.hs-body-18{font-family:var(--hs-font-body);font-size:18px;line-height:1.5;letter-spacing:0;font-weight:400;}
+.hs-body-16{font-family:var(--hs-font-body);font-size:16px;line-height:1.5;letter-spacing:-.015em;font-weight:400;}
+.hs-body-14{font-family:var(--hs-font-body);font-size:14px;line-height:1.5;letter-spacing:0;font-weight:400;}
+.hs-body-12{font-family:var(--hs-font-body);font-size:12px;line-height:1.5;letter-spacing:0;font-weight:400;}
+.hs-body-10{font-family:var(--hs-font-body);font-size:10px;line-height:1.5;letter-spacing:0;font-weight:400;}
+.hs-semibold{font-weight:600;}
+/* Explicit mobile scope: select a breakpoint appropriate to your composition. */
+[data-type-scale="mobile"] .hs-h0{font-size:48px;line-height:1.05;letter-spacing:-0.02em;}
+[data-type-scale="mobile"] .hs-h1{font-size:40px;line-height:1.1;letter-spacing:-0.02em;}
+[data-type-scale="mobile"] .hs-h2{font-size:32px;line-height:1.1;letter-spacing:-0.01em;}
+[data-type-scale="mobile"] .hs-h3{font-size:28px;line-height:1.15;letter-spacing:-0.01em;}
+[data-type-scale="mobile"] .hs-h4{font-size:24px;line-height:1.2;letter-spacing:-0.01em;}
+[data-type-scale="mobile"] .hs-h5{font-size:20px;line-height:1.25;letter-spacing:-0.01em;}

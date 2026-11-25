@@ -1,0 +1,349 @@
+{
+  "version": "2026-11-25",
+  "units": "px unless explicitly stated",
+  "palette": {
+    "plum": "#10002B",
+    "purple": "#3C096C",
+    "rose": "#932DA5",
+    "pink": "#FE84AD",
+    "blush": "#FDB0B4",
+    "blueDeep": "#0A88BD",
+    "blueMid": "#3CBAEF",
+    "blueLight": "#9CE5F6",
+    "greenDeep": "#3A6F72",
+    "greenMid": "#85A3A2",
+    "greenLight": "#C1DFDE",
+    "grayDeep": "#7A7A7A",
+    "grayMid": "#C0C0C0",
+    "grayLight": "#EBEBEB",
+    "accent": "#9858FF",
+    "white": "#FFFFFF",
+    "deepCanvas": "#211C29",
+    "hero": "#211C2B",
+    "raised": "#34283F",
+    "ink": "#2B2438",
+    "secondaryInk": "#3F385B",
+    "muted": "#BCB5C8",
+    "lavender": "#F5F2FA",
+    "roseTint": "#F4E9EE"
+  },
+  "modes": {
+    "light": {
+      "canvas": "#FFFFFF",
+      "surface": "#F5F2FA",
+      "text": "#2B2438",
+      "textSecondary": "#3F385B",
+      "button": "#211C29",
+      "buttonText": "#FFFFFF"
+    },
+    "dark": {
+      "canvas": "#211C29",
+      "surface": "#34283F",
+      "text": "#FFFFFF",
+      "textSecondary": "#BCB5C8",
+      "button": "#FFFFFF",
+      "buttonText": "#211C29"
+    }
+  },
+  "backgroundRoles": [
+    "canvas",
+    "surface",
+    "deep-plum",
+    "green-light"
+  ],
+  "gradients": {
+    "brand": {
+      "directions": [
+        "to bottom",
+        "to right"
+      ],
+      "stops": [
+        [
+          0,
+          "#10002B"
+        ],
+        [
+          25,
+          "#240046"
+        ],
+        [
+          58,
+          "#8D2DA5"
+        ],
+        [
+          86,
+          "#FD7AAB"
+        ],
+        [
+          100,
+          "#FDB4B5"
+        ]
+      ]
+    },
+    "darkSurface": [
+      "#2B2534",
+      "#393043"
+    ],
+    "lightSurface": [
+      "#EEE8F6",
+      "#F4E9EE"
+    ]
+  },
+  "typography": {
+    "headingFamily": "Big Issue Narrow",
+    "headingWeight": 600,
+    "bodyFamily": "Area Normal",
+    "bodyWeights": {
+      "Regular": 400,
+      "SemiBold": 600
+    },
+    "desktopHeadings": [
+      {
+        "name": "H0",
+        "size": 96,
+        "lineHeightPercent": 95,
+        "trackingPercent": -2
+      },
+      {
+        "name": "H1",
+        "size": 72,
+        "lineHeightPercent": 95,
+        "trackingPercent": -1.5
+      },
+      {
+        "name": "H2",
+        "size": 56,
+        "lineHeightPercent": 100,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H3",
+        "size": 40,
+        "lineHeightPercent": 100,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H4",
+        "size": 32,
+        "lineHeightPercent": 100,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H5",
+        "size": 24,
+        "lineHeightPercent": 100,
+        "trackingPercent": -1
+      }
+    ],
+    "mobileHeadings": [
+      {
+        "name": "H0",
+        "size": 48,
+        "lineHeightPercent": 105,
+        "trackingPercent": -2
+      },
+      {
+        "name": "H1",
+        "size": 40,
+        "lineHeightPercent": 110,
+        "trackingPercent": -2
+      },
+      {
+        "name": "H2",
+        "size": 32,
+        "lineHeightPercent": 110,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H3",
+        "size": 28,
+        "lineHeightPercent": 115,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H4",
+        "size": 24,
+        "lineHeightPercent": 120,
+        "trackingPercent": -1
+      },
+      {
+        "name": "H5",
+        "size": 20,
+        "lineHeightPercent": 125,
+        "trackingPercent": -1
+      }
+    ],
+    "body": [
+      {
+        "name": "Web / Body / 20px / Regular",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 30,
+        "trackingPercent": -1.5
+      },
+      {
+        "name": "Web / Body / 20px / SemiBold",
+        "size": 20,
+        "weight": 600,
+        "lineHeight": 30,
+        "trackingPercent": -1.5
+      },
+      {
+        "name": "Web / Body / 18px / Regular",
+        "size": 18,
+        "weight": 400,
+        "lineHeight": 27,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 18px / SemiBold",
+        "size": 18,
+        "weight": 600,
+        "lineHeight": 27,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 16px / Regular",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 24,
+        "trackingPercent": -1.5
+      },
+      {
+        "name": "Web / Body / 16px / SemiBold",
+        "size": 16,
+        "weight": 600,
+        "lineHeight": 24,
+        "trackingPercent": -1.5
+      },
+      {
+        "name": "Web / Body / 14px / Regular",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 21,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 14px / SemiBold",
+        "size": 14,
+        "weight": 600,
+        "lineHeight": 21,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 12px / Regular",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 18,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 12px / SemiBold",
+        "size": 12,
+        "weight": 600,
+        "lineHeight": 18,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 10px / Regular",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 15,
+        "trackingPercent": 0
+      },
+      {
+        "name": "Web / Body / 10px / SemiBold",
+        "size": 10,
+        "weight": 600,
+        "lineHeight": 15,
+        "trackingPercent": 0
+      }
+    ],
+    "button": {
+      "size": 16,
+      "weight": 600,
+      "lineHeight": 24
+    }
+  },
+  "spacing": [
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "sizes": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64
+  ],
+  "radius": {
+    "square": 0,
+    "small": 12,
+    "card": 24,
+    "pill": 999
+  },
+  "borders": {
+    "white": {
+      "default": "#DDD8E3",
+      "hover": "#D0C9D9",
+      "extraMuted": "#EBE8EF"
+    },
+    "lavender": {
+      "default": "#D4CDDE",
+      "hover": "#C9C0D3",
+      "extraMuted": "#E7E1EE"
+    },
+    "purple": {
+      "default": "#60348A",
+      "hover": "#704994",
+      "extraMuted": "#502278"
+    },
+    "deepPlum": {
+      "default": "#46404E",
+      "hover": "#534D5D",
+      "extraMuted": "#393340"
+    },
+    "black": {
+      "default": "#303030",
+      "hover": "#3D3D3D",
+      "extraMuted": "#222222"
+    }
+  },
+  "button": {
+    "styles": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Gradient"
+    ],
+    "states": [
+      "Default",
+      "Hover",
+      "Pressed",
+      "Disabled"
+    ],
+    "iconPlacement": [
+      "none",
+      "leading",
+      "trailing"
+    ],
+    "defaultIconPlacement": "none",
+    "minHeight": 48,
+    "minWidth": 160,
+    "paddingInline": 24,
+    "iconSize": 20,
+    "gap": 8,
+    "iconOnlySize": 48,
+    "focusRingWidth": 2,
+    "focusRingGap": 2
+  }
+}

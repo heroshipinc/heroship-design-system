@@ -1,0 +1,76 @@
+{
+  "method": "WCAG relative luminance, opaque sRGB flat colors. Not a complete accessibility audit.",
+  "pairs": [
+    {
+      "name": "Deep plum on white",
+      "foreground": "#211C29",
+      "background": "#FFFFFF",
+      "contrastRatio": 16.63,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "White on deep plum",
+      "foreground": "#FFFFFF",
+      "background": "#211C29",
+      "contrastRatio": 16.63,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on lavender",
+      "foreground": "#2B2438",
+      "background": "#F5F2FA",
+      "contrastRatio": 13.43,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on rose tint",
+      "foreground": "#2B2438",
+      "background": "#F4E9EE",
+      "contrastRatio": 12.56,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "White on brand plum",
+      "foreground": "#FFFFFF",
+      "background": "#10002B",
+      "contrastRatio": 19.87,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "White on brand purple",
+      "foreground": "#FFFFFF",
+      "background": "#3C096C",
+      "contrastRatio": 14.51,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on blush",
+      "foreground": "#2B2438",
+      "background": "#FDB0B4",
+      "contrastRatio": 8.53,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on light green",
+      "foreground": "#2B2438",
+      "background": "#C1DFDE",
+      "contrastRatio": 10.54,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on light blue",
+      "foreground": "#2B2438",
+      "background": "#9CE5F6",
+      "contrastRatio": 10.59,
+      "usage": "Normal and large text"
+    },
+    {
+      "name": "Ink on light gray",
+      "foreground": "#2B2438",
+      "background": "#EBEBEB",
+      "contrastRatio": 12.47,
+      "usage": "Normal and large text"
+    }
+  ],
+  "gradientRule": "Check every part of the text footprint in the rendered gradient; no universal main-gradient text approval."
+}
