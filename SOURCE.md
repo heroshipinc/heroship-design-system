@@ -15,3 +15,5 @@ CSS is a foundation reference, not a certified complete component implementation
 
 
 Gradient/palette revision: read directly from corrected Figma sample 45:16 and comparison swatches on 2026-11-25. Main gradient exact paint retained in tokens. Purple #560A59, rose #A52D8F, pink #FD7AAB. Plum and blush unchanged. Button gradient excluded from this revision. White on updated purple: 13.26:1.
+
+Flat palette softening, 2026-11-25: Purple #581F5A, Rose #A24391, Pink #FD87B3 (rounded hex; source RGB retained). White on purple 11.96:1. Main brand and button gradients unchanged.

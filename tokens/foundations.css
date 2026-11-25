@@ -1,9 +1,9 @@
 /* Foundation reference. Licensed font files are intentionally not bundled. */
 :root {
   --hs-plum: #10002B;
-  --hs-purple: #560A59;
-  --hs-rose: #A52D8F;
-  --hs-pink: #FD7AAB;
+  --hs-purple: rgb(87.810978 30.961706 90.055038); /* #581F5A rounded */
+  --hs-rose: rgb(162.326849 67.292345 144.903857); /* #A24391 rounded */
+  --hs-pink: rgb(253.313134 135.135158 179.339174); /* #FD87B3 rounded */
   --hs-blush: #FDB0B4;
   --hs-blue-deep: #0A88BD;
   --hs-blue-mid: #3CBAEF;

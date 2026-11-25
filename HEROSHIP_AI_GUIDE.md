@@ -37,10 +37,12 @@ Logo files are deliberately excluded from this public kit. Ask the team for the 
 | Name | Hex | Typical role |
 |---|---|---|
 | Plum | #10002B | Brand anchor, dark brand moments |
-| Purple | #560A59 | Primary brand expression |
-| Rose | #A52D8F | Controlled expressive color |
-| Pink | #FD7AAB | Accent within primary family |
+| Purple | #581F5A | Primary brand expression |
+| Rose | #A24391 | Controlled expressive color |
+| Pink | #FD87B3 | Accent within primary family |
 | Blush | #FDB0B4 | Soft accent/surface moment |
+
+The flat purple, rose and pink swatches were softened independently of the main brand gradient. Hex labels are rounded; paletteExactRGB in the token file and the CSS preserve the source precision. Both main and button gradients are unchanged by this flat-color revision.
 
 These are the primary flat palette. Pink and blush are not default page backgrounds everywhere. The brand should still read predominantly purple/plum.
 

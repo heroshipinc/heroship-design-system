@@ -3,9 +3,9 @@
   "units": "px unless explicitly stated",
   "palette": {
     "plum": "#10002B",
-    "purple": "#560A59",
-    "rose": "#A52D8F",
-    "pink": "#FD7AAB",
+    "purple": "#581F5A",
+    "rose": "#A24391",
+    "pink": "#FD87B3",
     "blush": "#FDB0B4",
     "blueDeep": "#0A88BD",
     "blueMid": "#3CBAEF",
@@ -416,5 +416,23 @@
     "iconOnlySize": 48,
     "focusRingWidth": 2,
     "focusRingGap": 2
-  }
+  },
+  "paletteExactRGB": {
+    "purple": {
+      "r": 0.3443567752838135,
+      "g": 0.12141845375299454,
+      "b": 0.35315701365470886
+    },
+    "rose": {
+      "r": 0.6365758776664734,
+      "g": 0.2638915479183197,
+      "b": 0.5682504177093506
+    },
+    "pink": {
+      "r": 0.993384838104248,
+      "g": 0.5299417972564697,
+      "b": 0.7032908797264099
+    }
+  },
+  "paletteExactRGBNote": "Overrides rounded hex for these manually refined primary flat colors; channels are sRGB 0–1."
 }

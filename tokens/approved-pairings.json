@@ -39,9 +39,14 @@
     {
       "name": "White on brand purple",
       "foreground": "#FFFFFF",
-      "background": "#560A59",
-      "contrastRatio": 13.26,
-      "usage": "Normal and large text"
+      "background": "#581F5A",
+      "contrastRatio": 11.96,
+      "usage": "Normal and large text",
+      "backgroundExactRGB": {
+        "r": 0.3443567752838135,
+        "g": 0.12141845375299454,
+        "b": 0.35315701365470886
+      }
     },
     {
       "name": "Ink on blush",
